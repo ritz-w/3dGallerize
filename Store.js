@@ -22,7 +22,7 @@ function updateComponents() {
   }
 }
 
-const POLY_PATH = 'http://localhost:3000/api/v1/users/4/galleries';
+const POLY_PATH = 'http://localhost:3000/api/v1/current_user_galleries';
 
 export function initialize() {
   fetch(POLY_PATH)
