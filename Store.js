@@ -22,7 +22,7 @@ function updateComponents() {
   }
 }
 
-const POLY_PATH = 'http://localhost:3000/api/v1/current_user_galleries';
+const POLY_PATH = 'https://gallerize-api.herokuapp.com/api/v1/current_user_galleries';
 
 export function initialize() {
   fetch(POLY_PATH)
